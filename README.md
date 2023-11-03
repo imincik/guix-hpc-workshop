@@ -11,7 +11,7 @@
 * run VM
 
 ```bash
-  ./run-vm.sh
+  ./guix-run.sh
 ```
 
 ## Configure VM
@@ -46,11 +46,11 @@ cp /run/current-system/configuration.scm ~/
 * ssh to VM
 
 ```bash
-  ./ssh-vm.sh
+  ./guix-ssh.sh
 ```
 
 * mount VM home directory
 
 ```bash
-  ./mount-vm.sh
+  ./guix-mount.sh
 ```
